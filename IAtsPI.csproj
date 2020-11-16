@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.0</TargetFramework>
-		<Version>1.0.0</Version>
+    <TargetFrameworks>netstandard1.0;netstandard2.0;net35;net461;net50</TargetFrameworks>
+		<Version>1.0.0.1</Version>
 		<Authors>Tetsu Otter</Authors>
 		<Company>Tech Otter</Company>
 		<RepositoryUrl>https://github.com/TetsuOtter/IAtsPI</RepositoryUrl>
@@ -11,7 +11,9 @@
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
 		<PackageProjectUrl>https://github.com/TetsuOtter/IAtsPI</PackageProjectUrl>
-		<PackageReleaseNotes># 1.0.0
+		<PackageReleaseNotes># 1.0.0.1
+Add net35/net461/netstandard2.0/net50 Support
+# 1.0.0
 published to nuget.org</PackageReleaseNotes>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<Description>Provides a unified interface for ATS plugin development. It also includes the structs needed for development.</Description>
